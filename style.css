@@ -66,10 +66,6 @@ a{
     margin: 0 auto;
 }
 
-.col{
-    width: 100%;
-}
-
 .btn{
     background-color: var(--gold);
     border-radius: 100px;
@@ -125,13 +121,13 @@ nav > *{
     font-weight: bold;
 }
 
+.nav__item + .nav__item{
+    margin-top: 1.5em;
+}
+
 .nav__link{
     color: var(--white);
     font-weight: bold;
-}
-
-.nav__item + .nav__item{
-    margin-top: 1.5em;
 }
 
 .menu{
@@ -156,7 +152,7 @@ nav > *{
     color: var(--white);
 }
 
-.hero span{
+.hero__title span{
     color: var(--gold);
 }
 
